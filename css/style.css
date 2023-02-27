@@ -174,9 +174,6 @@ header .container .header{
     color: var(--white-color);
     border-radius: 10px;
 }
-/* .header .links li:first-child a{
-    color: red;
-} */
 .header .links li a::after ,
 .header .links li:first-child::after {
     content: "";
@@ -195,19 +192,13 @@ header .container .header{
     color:var(--main-color) ;
     background-color: #222222;
 }
-/* Small */
-@media(min-width : 320px) and (max-width:767px){
+/* Small  and  Meduim */
+@media(min-width : 320px) and (max-width:991px){
     .header .links{
         display: none;
     }
     .header .slider{
         display: block;
-    }
-}
-/* Meduim */
-@media(min-width : 768px) and (max-width:991px){
-    .header .links li{
-        margin-left: 0;
     }
 }
 /* -------------- End Header ------------------- */
