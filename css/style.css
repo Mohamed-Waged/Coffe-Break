@@ -129,6 +129,7 @@ header .container .header{
     top: calc(100% + 15px);
     display: none;
     z-index: 1;
+    transition: var(--main-transation);
 }
 .header .slider ul::before{
     content: "";
